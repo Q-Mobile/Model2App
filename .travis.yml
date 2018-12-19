@@ -1,0 +1,6 @@
+osx_image: xcode10.1
+language: objective-c
+script:
+  - set -o pipefail
+  - xcodebuild -version
+  - xcodebuild test -project Model2App/Model2App.xcodeproj -scheme Model2App -sdk iphonesimulator -destination 'OS=12.1,name=iPhone X' -configuration Debug ONLY_ACTIVE_ARCH=NO | xcpretty -c
