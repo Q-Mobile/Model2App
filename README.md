@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://travis-ci.org/q-mobile/Model2App">
-        <img src="https://img.shields.io/travis/q-mobile/Model2App.svg?style=flat" alt="CI Status"/></a>
+        <img src="https://img.shields.io/travis/Q-Mobile/Model2App.svg?style=flat" alt="CI Status"/></a>
     <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
     <img src="https://img.shields.io/badge/Swift-4.2-orange.svg" />
     <a href="https://cocoapods.org/pods/Model2App">
