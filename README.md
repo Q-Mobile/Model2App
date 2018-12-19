@@ -1,7 +1,7 @@
 ![Model2App: Turn your Swift data model into a working CRUD app.](logo.png)
 
 <p align="center">
-    <a href="https://travis-ci.org/q-mobile/Model2App">
+    <a href="https://travis-ci.org/Q-Mobile/Model2App">
         <img src="https://img.shields.io/travis/Q-Mobile/Model2App.svg?style=flat" alt="CI Status"/></a>
     <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
     <img src="https://img.shields.io/badge/Swift-4.2-orange.svg" />
