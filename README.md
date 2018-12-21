@@ -1,4 +1,4 @@
-![Model2App: Turn your Swift data model into a working CRUD app.](logo.png)
+![Model2App: Turn your Swift data model into a working CRUD app.](https://raw.githubusercontent.com/Q-Mobile/Model2App/master/logo.png)
 
 <p align="center">
     <a href="https://travis-ci.org/Q-Mobile/Model2App">
@@ -18,7 +18,7 @@
 `Model2App` uses [Realm](https://github.com/realm/realm-cocoa) ❤️ under the hood and can be treated as its extension in development activities, especially in the phase of defining or validating a data model for a bigger project.
 
 <center>
-<img src="Model2AppTestApp/Demo/Model2App_Demo.gif"/>
+<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Demo/Model2App_Demo.gif"/>
 </center>
 
 
@@ -356,65 +356,65 @@ If you'd like to customize the default class/property configuration, simply over
 <table bordercolor=white>
   <tr>
     <th>
-      <img src="Model2AppTestApp/Screenshots/AppMenu.png" width="240"/>
+      <img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/AppMenu.png" width="240"/>
     </th>
     <th>
-      <img src="Model2AppTestApp/Screenshots/ListView_People.png" width="240"/>
+      <img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ListView_People.png" width="240"/>
     </th>
     <th>
-    	<img src="Model2AppTestApp/Screenshots/ListView_Companies.png" width="240"/>
+    	<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ListView_Companies.png" width="240"/>
     </th>
   </tr>
 </table>
 <table bordercolor=white>
   <tr>
 	 <th>
-    	<img src="Model2AppTestApp/Screenshots/ListView_Products.png" width="240"/>
+    	<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ListView_Products.png" width="240"/>
     </th>
     <th>
-      <img src="Model2AppTestApp/Screenshots/ListView_Activities.png" width="240"/>
+      <img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ListView_Activities.png" width="240"/>
     </th>
     <th>
-    	<img src="Model2AppTestApp/Screenshots/ListView_Deals.png" width="240"/>
+    	<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ListView_Deals.png" width="240"/>
     </th>
   </tr>
 </table>
 <table bordercolor=white>
   <tr>
 	 <th>
-    	<img src="Model2AppTestApp/Screenshots/NewObjectView_Person.png" width="240"/>
+    	<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/NewObjectView_Person.png" width="240"/>
     </th>
     <th>
-      <img src="Model2AppTestApp/Screenshots/ObjectView_Company.png" width="240"/>
+      <img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ObjectView_Company.png" width="240"/>
     </th>
     <th>
-    	<img src="Model2AppTestApp/Screenshots/ObjectView_Person.png" width="240"/>
+    	<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ObjectView_Person.png" width="240"/>
     </th>
   </tr>
 </table>
 <table bordercolor=white>
   <tr>
 	 <th>
-    	<img src="Model2AppTestApp/Screenshots/ObjectView_Product.png" width="240"/>
+    	<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ObjectView_Product.png" width="240"/>
     </th>
     <th>
-      <img src="Model2AppTestApp/Screenshots/ObjectView_Activity_CreateNewRelatedObject.png" width="240"/>
+      <img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ObjectView_Activity_CreateNewRelatedObject.png" width="240"/>
     </th>
     <th>
-    	<img src="Model2AppTestApp/Screenshots/ObjectView_Company_CreateNewRelatedObject.png" width="240"/>
+    	<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ObjectView_Company_CreateNewRelatedObject.png" width="240"/>
     </th>
   </tr>
 </table>
 <table bordercolor=white>
   <tr>
 	 <th>
-    	<img src="Model2AppTestApp/Screenshots/ObjectView_Person_DateEdit.png" width="240"/>
+    	<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ObjectView_Person_DateEdit.png" width="240"/>
     </th>
     <th>
-      <img src="Model2AppTestApp/Screenshots/ObjectView_PersonPhotoEdit.png" width="240"/>
+      <img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ObjectView_PersonPhotoEdit.png" width="240"/>
     </th>
     <th>
-    	<img src="Model2AppTestApp/Screenshots/ObjectView_Deal_PriceEdit.png" width="240"/>
+    	<img src="https://raw.githubusercontent.com/Q-Mobile/Model2App/master/Model2AppTestApp/Screenshots/ObjectView_Deal_PriceEdit.png" width="240"/>
     </th>
   </tr>
 </table>
