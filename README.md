@@ -89,8 +89,11 @@
 
 ## 🔷 Installation
 
-Model2App is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+`Model2App` is available through both [CocoaPods](https://cocoapods.org) and [Carthage](https://github.com/Carthage/Carthage).
+
+#### ✴️ CocoaPods
+
+In order to install `Model2App` via CocoaPods, simply add the following line to your Podfile:
 
 ```ruby
 pod 'Model2App'
@@ -102,6 +105,21 @@ Then run the following command:
 $ pod install
 ```
 
+#### ✴️ Carthage
+
+In order to install `Model2App` via Carthage, simply add the following line to your Cartfile:
+
+```ogdl
+github "Q-Mobile/Model2App" ~> 0.1.0
+```
+
+Then run the following command:
+
+```bash
+$ carthage update
+```
+
+Please remember to add all `*.framework` files from `Carthage/Build/*` to your project (Not only `Model2App.framework`), apart from other standard steps for [Carthage](https://github.com/Carthage/Carthage#quick-start)
 
 ## 🔷 Usage
 
