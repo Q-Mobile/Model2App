@@ -44,8 +44,11 @@ open class ModelClass : Object {
     /// Plural name of this class. Used to name list of objects or menu items. If not provided, "`ClassName - List`" is used
     open class var pluralName: String { return "" }
 
-    /// Name of the image file used for menu icon in root menu of the app
+    /// Name of the image file used for menu icon in root menu of the app; If `menuIconEmoji` is also specified, `menuIconFileName` will be ignored
     open class var menuIconFileName: String { return "" }
+    
+    /// Emoji character that should be used as a menu icon image; If `menuIconFileName` is also specified, `menuIconEmoji` will be used
+    open class var menuIconEmoji: String { return "" }
     
     /// Specifies whether `Model2App` should look for menu icon file in main app bundle. If `false`, `Model2App`'s bundle will be used
     open class var menuIconIsFromAppBundle: Bool { return false }
@@ -87,18 +90,6 @@ open class ModelClass : Object {
         return pluralName.isEmpty ? "\(name) - List" : pluralName
     }
     
-    static var menuIcon: UIImage? {
-        var fileName = menuIconFileName.isEmpty ? FileUtilities.getRandomMenuIcon() : menuIconFileName
-        var bundle = ModelManager.shared.bundle
-        if !menuIconFileName.isEmpty && menuIconIsFromAppBundle {
-            bundle = Bundle.main
-        } else {
-            fileName = "MenuIcons.bundle/\(fileName).png"
-        }
-        
-        return UIImage.init(named: fileName, in: bundle, compatibleWith: nil)
-    }
-    
     static var defaultListViewCellProperty: String? {
         return defaultListViewCellPropertyCache[name] ?? {
             // By default, if no `listViewCellProperties` are defined, look for any property containing `name` in its name
@@ -124,8 +115,6 @@ open class ModelClass : Object {
     static var schema: ObjectSchema {
         return referenceObject.objectSchema
     }
-    
-
     
     // MARK: -
     // MARK: Computed Instance Properties
@@ -163,6 +152,22 @@ open class ModelClass : Object {
         let moduleName = referenceClassName.components(separatedBy: ".").first ?? ""
         
         return NSClassFromString("\(moduleName).\(className)") as? ModelClass.Type
+    }
+    
+    static func menuIcon(forWidth width: CGFloat? = nil) -> UIImage? {
+        if !menuIconEmoji.isEmpty {
+            return menuIconEmoji.image(forWidth: width ?? 0.0, fontSizeToWidthPercentage: 1.0)
+        }
+        
+        var fileName = menuIconFileName.isEmpty ? FileUtilities.getRandomMenuIcon() : menuIconFileName
+        var bundle = ModelManager.shared.bundle
+        if !menuIconFileName.isEmpty && menuIconIsFromAppBundle {
+            bundle = Bundle.main
+        } else {
+            fileName = "MenuIcons.bundle/\(fileName).png"
+        }
+        
+        return UIImage.init(named: fileName, in: bundle, compatibleWith: nil)
     }
     
     // MARK: -

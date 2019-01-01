@@ -41,6 +41,28 @@ extension String {
         return words.prefix(1).uppercased() + words.dropFirst()
     }
 
+    func image(forWidth width: CGFloat, fontSizeToWidthPercentage: CGFloat) -> UIImage? {
+        let size = CGSize(width: width, height: width)
+        
+        UIGraphicsBeginImageContextWithOptions(size, false, 0)
+        UIColor.clear.set()
+        let rect = CGRect(origin: .zero, size: size)
+        UIRectFill(rect)
+        
+        let font = UIFont.systemFont(ofSize: (width * fontSizeToWidthPercentage).rounded())
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.alignment = .center
+        let attributes = [
+            NSAttributedString.Key.paragraphStyle: paragraphStyle,
+            NSAttributedString.Key.font: font
+        ]
+        
+        self.draw(in: rect.insetBy(dx: 0, dy: (rect.height - font.lineHeight)/2), withAttributes: attributes)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
+    }
+    
 }
 
 extension Date {

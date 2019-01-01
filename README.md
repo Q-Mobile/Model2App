@@ -58,6 +58,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Supports both iPhones and iPads  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Supports both portrait and landscape orientations  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Validates your data model for declared relationships and declared control types for properties  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Enables using emoji character for menu icon image   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Flexibility & Extensibility: Apart from configuration parameters defined in `M2AConfig` class which can be overridden, most of the classes & methods used for core app features have `open` access modifier, so you can customize or extend selected parts of `Model2App` framework in your app
 
 #### ✴️ Supported control types:  

@@ -109,7 +109,7 @@ open class RootViewCell: UICollectionViewCell {
      *  Method responsible for updating the subviews based on provided model class
      */
     open func updateForClass(_ modelClass: ModelClass.Type) {
-        imageView.image = modelClass.menuIcon
+        imageView.image = modelClass.menuIcon(forWidth: frame.size.width)
         nameLabel.text = modelClass.plural
     }
     
