@@ -1,17 +1,14 @@
 ![Model2App: Turn your Swift data model into a working CRUD app.](https://raw.githubusercontent.com/Q-Mobile/Model2App/master/logo.png)
 
 <p align="center">
-    <a href="https://travis-ci.org/Q-Mobile/Model2App">
-        <img src="https://img.shields.io/travis/Q-Mobile/Model2App.svg?style=flat" alt="CI Status"/></a>
+    <a href="https://travis-ci.org/Q-Mobile/Model2App"><img src="https://img.shields.io/travis/Q-Mobile/Model2App.svg?style=flat" alt="CI Status"/></a>
     <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
     <img src="https://img.shields.io/badge/Swift-4.2-orange.svg" />
-    <a href="https://cocoapods.org/pods/Model2App">
-        <img src="https://img.shields.io/cocoapods/v/Model2App.svg?style=flat" alt="Version" /></a>
+    <a href="https://cocoapods.org/pods/Model2App"><img src="https://img.shields.io/cocoapods/v/Model2App.svg?style=flat" alt="Version" /></a>
+    <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat" alt="Carthage" /></a>
     <a href="https://raw.githubusercontent.com/q-mobile/Model2App/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
-    <a href="https://twitter.com/karolkulesza">
-        <img src="https://img.shields.io/badge/contact-@karolkulesza-blue.svg?style=flat" alt="Twitter: @karolkulesza" /></a>
+    <a href="https://twitter.com/karolkulesza"><img src="https://img.shields.io/badge/contact-@karolkulesza-blue.svg?style=flat" alt="Twitter: @karolkulesza" /></a>
 </p>
-
 
 `Model2App` is a simple library that lets you quickly generate a `CRUD` iOS app based on just a data model defined in Swift. (`CRUD` - Create Read Update Delete). Ever wanted to quickly validate a data model for your next awesome iOS app? `Model2App` lets you save hours/days by generating a fully working app with persistence layer, validation and many more features. Just define your model, hit `⌘ + R` and enjoy your app. 😎
 
